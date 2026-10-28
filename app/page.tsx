@@ -4,12 +4,12 @@ export default function Home() { // Define the page component.
       <div className="mx-auto max-w-5xl"> {/* Center the content and limit its width. */}
 
         <header className="mb-16"> {/* Header with space below it. */}
-          <p className="text-21 font-bold text-amber-400"> {/* Large, bold, amber brand text. */}
+          <p className="text-2x1 font-bold text-amber-400"> {/* Large, bold, amber brand text. */}
             NextWatch
           </p>
         </header>
 
-        <h1 className="text=4xl font-bold sm:text-6xl"> {/* Main heading; larger on wider screens. */}
+        <h1 className="text-4xl font-bold sm:text-6xl"> {/* Main heading; larger on wider screens. */}
           Find your next movie night. {/* Homepage headline. */}
         </h1>
 
@@ -23,11 +23,12 @@ export default function Home() { // Define the page component.
           </h2>
 
           <article className="max-w-sm rounded-2xl border border-slate-700 bg-slate-900 p-6">
-            <div className="mb-5 flex aspect-[2/3] items-center justify-center rounded-xl bg-slate-800 text-slate-400"> {/* Poster-shaped placeholder with centered text */}
+            <div className="mb-5 flex aspect-2/3 items-center justify-center rounded-xl bg-slate-800 text-slate-400"> {/* Poster-shaped placeholder with centered text */}
             Poster coming soon 
             </div>
             <h3 className="text-xl font-bold">Interstellar</h3> {/* Movie title in large, bold text. */}
-            <p className="mt-2 text-sclate-300">2014 - Science fiction</p> {/* Small amber text with space above. */}
+            <p className="mt-2 text-slate-300">2014 - Science fiction</p> {/* Small amber text with space above. */}
+            <p className="mt-3 text-slate-300">A team of explorers travels beyond our solar system to search for a future for humanity.</p> {/* Light-gray synopsis with space above. */}
             </article>          
         </section>
       </div>
